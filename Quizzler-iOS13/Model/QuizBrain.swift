@@ -38,6 +38,10 @@ struct QuizBrain {
         }
     }
     
+    func getScore() -> Int {
+        return userScore
+    }
+    
     func getQuestionText() -> String {
         return quiz[questionNumber].text
     }
